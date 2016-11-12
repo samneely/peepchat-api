@@ -26,7 +26,7 @@ config :phoenix, :format_encoders,
   "json-api": Poison
 
 config :mime, :types, %{
-  "application/vnd.api_json" => ["json-api"]
+  "application/vnd.api+json" => ["json-api"]
 }
 
 # Import environment specific config. This must remain at the bottom
